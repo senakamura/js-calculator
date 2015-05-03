@@ -35,8 +35,7 @@ function calculatorModule(){
     // if (typeof x != "number"){
     //   return "error";
     // }
-    total = x;
-    return total;
+    return total = x;
    }
 
    function validate(fn){
@@ -66,8 +65,7 @@ function calculatorModule(){
     // if (typeof x != "number"){
     // return "error";
     // }
-    total += x;
-    return total;
+    return total += x;
    }
 
 
@@ -80,8 +78,7 @@ function calculatorModule(){
     // if (typeof x != "number"){
     // return "error";
     // }
-    total -= x;
-    return total;
+    return total -= x;
    }
 
 
@@ -94,8 +91,7 @@ function calculatorModule(){
     // if (typeof x != "number"){
     // return "error";
     // }
-    total *= x;
-    return total;
+    return total *= x;
    }
 
 
@@ -108,8 +104,7 @@ function calculatorModule(){
     // if (typeof x != "number"){
     // return "error";
     // }
-    total /= x;
-    return total;
+    return total /= x;
    }
 
 
@@ -119,8 +114,7 @@ function calculatorModule(){
 
 
    function _save(){
-    memory = total;
-    return memory;
+    return memory = total;
    }
 
 
@@ -139,7 +133,6 @@ function calculatorModule(){
    */
 
    function _clear(){
-    memory = 0;
-    return memory;
+    return memory = 0;
    }
 }
